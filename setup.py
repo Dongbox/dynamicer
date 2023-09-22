@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 # 获取项目的元数据
 about = {}
 here = os.path.abspath(os.path.dirname(__file__))
-with open(os.path.join(here, "src", "DynamicProcessor", "__version__.py"), encoding="utf-8") as f:
+with open(os.path.join(here, "src", "dynamicer", "__version__.py"), encoding="utf-8") as f:
     exec(f.read(), about)
 
 # 读取README文件作为长描述
